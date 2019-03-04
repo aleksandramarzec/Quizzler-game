@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F1152EC222DC06A009E90BD /* Quizzler.app in Resources */ = {isa = PBXBuildFile; fileRef = 633646B91B8C657400FF45E2 /* Quizzler.app */; };
 		1F13F515222C823A00F12141 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1F13F512222C823900F12141 /* ProgressHUD.bundle */; };
 		1F13F516222C823A00F12141 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F13F514222C823900F12141 /* ProgressHUD.m */; };
 		1F1A4D94221B38CF00D19E53 /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1A4D93221B38CF00D19E53 /* Questions.swift */; };
@@ -140,7 +141,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "London App Brewery";
+				ORGANIZATIONNAME = "Ola Marzec";
 				TargetAttributes = {
 					633646B81B8C657400FF45E2 = {
 						CreatedOnToolsVersion = 6.4;
@@ -174,6 +175,7 @@
 			files = (
 				1F13F515222C823A00F12141 /* ProgressHUD.bundle in Resources */,
 				633646C41B8C657400FF45E2 /* Main.storyboard in Resources */,
+				1F1152EC222DC06A009E90BD /* Quizzler.app in Resources */,
 				633646C91B8C657400FF45E2 /* LaunchScreen.xib in Resources */,
 				633646C61B8C657400FF45E2 /* Images.xcassets in Resources */,
 			);
