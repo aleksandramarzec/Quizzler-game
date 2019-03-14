@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -52,19 +52,17 @@
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 9999" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c0R-Fj-fUI">
-                                        <rect key="frame" x="251" y="0.0" width="116" height="21"/>
+                                        <rect key="frame" x="271.5" y="0.0" width="95.5" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="BZO-yH-Suj"/>
-                                            <constraint firstAttribute="width" constant="116" id="Dhp-0Z-dcr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x/13" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qil-6C-XPA">
-                                        <rect key="frame" x="8" y="0.0" width="52" height="21"/>
+                                        <rect key="frame" x="8" y="0.0" width="32" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="52" id="EF7-9n-R0d"/>
                                             <constraint firstAttribute="height" constant="21" id="mfV-GR-EHO"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -90,7 +88,7 @@
                                         <rect key="frame" x="25" y="60" width="128" height="56"/>
                                         <color key="backgroundColor" red="0.1911550909280777" green="0.6378670334815979" blue="0.26147949695587158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="128" id="AKm-GO-sy5"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="128" id="AKm-GO-sy5"/>
                                             <constraint firstAttribute="height" constant="56" id="J5O-KN-3m1"/>
                                         </constraints>
                                         <state key="normal" title="True">
@@ -127,6 +125,7 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.32369780539999998" green="0.1063579395" blue="0.574860394" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="T5N-xc-sVz" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="exB-ZS-1U0" secondAttribute="trailing" constant="8" symbolic="YES" id="6Ir-vt-7S9"/>
                                     <constraint firstItem="T5N-xc-sVz" firstAttribute="top" secondItem="lYI-Ly-TJ0" secondAttribute="top" constant="60" id="Lwv-Er-nPS"/>
                                     <constraint firstAttribute="trailing" secondItem="T5N-xc-sVz" secondAttribute="trailing" constant="25" id="OPX-As-oBh"/>
                                     <constraint firstItem="exB-ZS-1U0" firstAttribute="leading" secondItem="lYI-Ly-TJ0" secondAttribute="leading" constant="25" id="aCu-qw-v0d"/>
@@ -161,7 +160,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="366"/>
+            <point key="canvasLocation" x="259.19999999999999" y="329.2353823088456"/>
         </scene>
     </scenes>
 </document>
